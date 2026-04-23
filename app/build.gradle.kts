@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.homeretreat.planner"
+    namespace = "com.soloretreat"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.homeretreat.planner"
+        applicationId = "com.soloretreat"
         minSdk = 26
         targetSdk = 34
         versionCode = 1
