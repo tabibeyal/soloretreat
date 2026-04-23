@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Solo Retreat</string>
+    <string name="paypal_donation_url">https://www.paypal.com/donate?business=eyaltabib82@gmail.com&amp;currency_code=USD</string>
 </resources>

@@ -752,6 +752,7 @@
     <string name="not_selected">Not selected</string>
     <string name="off">Off</string>
     <string name="on">On</string>
+    <string name="paypal_donation_url">https://www.paypal.com/donate?business=eyaltabib82@gmail.com&amp;currency_code=USD</string>
     <string name="range_end">"Range end"</string>
     <string name="range_start">"Range start"</string>
     <string name="selected">Selected</string>

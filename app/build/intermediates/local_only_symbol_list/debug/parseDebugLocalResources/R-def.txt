@@ -12,6 +12,7 @@ mipmap ic_launcher_round
 raw bell_end
 raw bell_start
 string app_name
+string paypal_donation_url
 style Theme.HomeRetreatPlanner
 xml backup_rules
 xml data_extraction_rules

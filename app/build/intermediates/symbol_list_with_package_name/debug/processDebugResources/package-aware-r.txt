@@ -1687,6 +1687,7 @@ string navigation_menu
 string not_selected
 string off
 string on
+string paypal_donation_url
 string range_end
 string range_start
 string selected

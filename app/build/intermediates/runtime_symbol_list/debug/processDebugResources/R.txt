@@ -1686,6 +1686,7 @@ int string navigation_menu 0x7f0e005b
 int string not_selected 0x7f0e005c
 int string off 0x7f0e005d
 int string on 0x7f0e005e
+int string paypal_donation_url 0x7f0e0068
 int string range_end 0x7f0e005f
 int string range_start 0x7f0e0060
 int string selected 0x7f0e0061

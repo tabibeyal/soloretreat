@@ -33,8 +33,10 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.homeretreat.planner.R
 import com.homeretreat.planner.ui.components.RetreatAppBar
 import com.homeretreat.planner.util.TimeUtils
 
@@ -169,9 +171,10 @@ fun RetreatSummaryScreen(
             Spacer(modifier = Modifier.height(24.dp))
 
             // Donation button
+            val donationUrl = stringResource(R.string.paypal_donation_url)
             TextButton(
                 onClick = {
-                    val intent = Intent(Intent.ACTION_VIEW, "https://www.paypal.com/donate?business=eyaltabib82@gmail.com&currency_code=USD".toUri())
+                    val intent = Intent(Intent.ACTION_VIEW, donationUrl.toUri())
                     context.startActivity(intent)
                 },
                 modifier = Modifier.align(Alignment.CenterHorizontally),
