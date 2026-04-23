@@ -1,0 +1,859 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:2:1-100:12
+INJECTED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:2:1-100:12
+INJECTED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:2:1-100:12
+INJECTED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:2:1-100:12
+MERGED from [androidx.glance:glance:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/68ae0ee9341d4e48692e1dea5e0fb769/transformed/glance-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:17:1-56:12
+MERGED from [androidx.media3:media3-session:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/e5eb9f4e03b53628581819c6917a924d/transformed/media3-session-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-extractor:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/2857540be9bd713d8647f2fab314a954/transformed/media3-extractor-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-container:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/af7f88536285651799c9a21e641caf29/transformed/media3-container-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-datasource:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/44c39ba8e760f211d4378144eae6cd35/transformed/media3-datasource-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-decoder:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/28807fb3b18d3b6acee3beeeb41aca39/transformed/media3-decoder-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-database:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/1112ccfbd027752420cf61c8ffd3bc0e/transformed/media3-database-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-common:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/cefc961ca0c315c74b225c11ee938b5c/transformed/media3-common-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-exoplayer:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/e6ae1386833703f4916bae5f2c04f684/transformed/media3-exoplayer-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.6.0] /home/eyal/.gradle/caches/8.13/transforms/ee1f64a231d325205ff5e4d01a491ef6/transformed/media-1.6.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.hilt:hilt-work:1.1.0] /home/eyal/.gradle/caches/8.13/transforms/f3ff3bec2e240827d29e267a64ae23aa/transformed/hilt-work-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime-ktx:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/cc23c973752a365da40f416552b9e544/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.core:core-remoteviews:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/b2a3a0abd554ca5e1f5089d74c3f912f/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.1.0] /home/eyal/.gradle/caches/8.13/transforms/29f3117d2cf75170fb37e950829499fd/transformed/hilt-navigation-compose-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.hilt:hilt-navigation:1.1.0] /home/eyal/.gradle/caches/8.13/transforms/dbd2887d191952ec155b6ebf8e462623/transformed/hilt-navigation-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] /home/eyal/.gradle/caches/8.13/transforms/a5447834c45c07b298f13ee9c1b8bde9/transformed/navigation-common-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/eyal/.gradle/caches/8.13/transforms/0eaf6ac51fb51fa8f8803ea9fb7ff091/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /home/eyal/.gradle/caches/8.13/transforms/d2a76bec532e58fd99258c45ccd6e815/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /home/eyal/.gradle/caches/8.13/transforms/6530c9731bfd5928ec0522c34df31137/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /home/eyal/.gradle/caches/8.13/transforms/347932393770c65b9c550ce21f48d77e/transformed/navigation-compose-2.7.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.2.0] /home/eyal/.gradle/caches/8.13/transforms/1a9d7e5e66286570f259f2511e6a520e/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/1863db7a449681f78b008f9b36ef1039/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/2bf2dce8a57e53f7b6f894f09ec4fafc/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/95fca6268d911532383248cf74252074/transformed/material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/4374d43a70575821ab252a7ac502da27/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/2e083466547e4e5b1d6e520a64fd4e46/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/035158dc20eadb7689015fe0d066c942/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/a88786064d3062ace2fe0b94d502f55c/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/3f81205ccbe8f30e0970fb24ed8f020a/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/74472e0a2469f6791f30df6b8c60dd9b/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/afffc4ed9499c188828f2a644c8a99d2/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/6ff5064a3017c3ac90a450424fcad4a0/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/3477ff65d341014d72283a1046115f13/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/09a3f9fc93ad98dccef100a0b087ef56/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/158b9b97b73b99f9f7e592be90096a79/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/82d476fb3b532e4407d96894d62d98b4/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/a945d4d93c8a76bf96f4532d466a822d/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/6967703273fd00276df864de66a2bccf/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.dagger:hilt-android:2.50] /home/eyal/.gradle/caches/8.13/transforms/87cca34274c482b1df49cf750830cac2/transformed/hilt-android-2.50/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.fragment:fragment:1.5.1] /home/eyal/.gradle/caches/8.13/transforms/7e4a045d85fd6c4028105d9547a570a3/transformed/fragment-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.2] /home/eyal/.gradle/caches/8.13/transforms/0aca980fd4eddea838dc5080bd33a187/transformed/activity-1.8.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/eyal/.gradle/caches/8.13/transforms/8b00d98bdda9f986dc6283a0a1f8cac9/transformed/activity-ktx-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/eyal/.gradle/caches/8.13/transforms/92ecb032feab501105725e78d82744c0/transformed/activity-compose-1.8.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.loader:loader:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/396e23d79cfc2de86c6972c324f7c07d/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/4a3f5d0532844b19d90e0de0ad7728de/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/dceda151997b0be4d43d3f722a75ceab/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/3eb70365aee9b727355d4c48f379a15d/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/4e05e662efd7b6659bb0fda9325d5e23/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/6d0f93dfbe14a0bda2743b4a15cdc57f/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/b576c4e8504b5da6faa5a42621ae6045/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/643f58f1e53564488bd755e3e7df18f2/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/877195d6800d1e812a003175de107428/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/502943e5bd0ccac74acb1ad19687b414/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/c945fdb7b02bc9275ee7fc0f215e81da/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/60a499a158e032de98d5239c682aa570/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/6178fe1a51527a8bb50acb1e16604f10/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/840e8f5a5bd35e840eaba3c7d066f3d1/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/0cedf4195dfe8aa2fbbe16a346d2f889/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/b64ee38ee0bb4a1412361e9eb3798508/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/e51b71afa5c36a90f6314a3665674aec/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/a76efd80bdb3645c73250158b0cb8779/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/ee6f28697be5585296b5a9f4ea9e8d1d/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/8f5a26b55c7747d0e04ff7953aa068d8/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/126c144ae76bf35902f64ce38fce0d0a/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/3ab044a62cf333c3817138718403b7aa/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /home/eyal/.gradle/caches/8.13/transforms/4d09bd5a400e89b6461eed3e317fc645/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /home/eyal/.gradle/caches/8.13/transforms/6ac67f0a2298290d1aae71363375dd89/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/eyal/.gradle/caches/8.13/transforms/201a873190e2111120690eba169683aa/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/eyal/.gradle/caches/8.13/transforms/2dc4d4e009ecdda565205bf71b66a8c1/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/ee4959dac26a7378a0d42a2d2baaeecf/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/4fe2b7cbdf7615d7756830f6bebf2ca2/transformed/datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/889fa4c115919ee7b86afb0b1b5fe11c/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/4dacea827ffc6e52e4e21c7b3fedaf6c/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/eyal/.gradle/caches/8.13/transforms/4ad7c7b62bcb120a1749f9cf9c211212/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/eyal/.gradle/caches/8.13/transforms/01ae04e82c941d2c2efc848241e184ff/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/eyal/.gradle/caches/8.13/transforms/6c91776298ea2363d9919aac65a06ecd/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/eyal/.gradle/caches/8.13/transforms/e4ae4adecc4456c395b005a1dc36251d/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/c04999161055ff0429fd10d70eebe85b/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/eyal/.gradle/caches/8.13/transforms/504b9db9837ad67b31c0266acc2037d3/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/75cf301a6d260d9afc44c14452d32b96/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.50] /home/eyal/.gradle/caches/8.13/transforms/e8d854a852cd473a8ed0c78f1957686d/transformed/dagger-lint-aar-2.50/AndroidManifest.xml:16:1-19:12
+	package
+		INJECTED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.POST_NOTIFICATIONS
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:5:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:6:5-8:30
+MERGED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:5-77
+MERGED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:5-77
+	tools:ignore
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:8:9-27
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:7:9-61
+uses-permission#android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:9:5-11:30
+	tools:ignore
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:11:9-27
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:10:9-76
+uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:12:5-14:30
+	tools:ignore
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:14:9-27
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:13:9-73
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:15:5-81
+MERGED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:25:5-81
+MERGED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:16:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:17:5-79
+MERGED from [androidx.media3:media3-common:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/cefc961ca0c315c74b225c11ee938b5c/transformed/media3-common-1.2.1/AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-common:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/cefc961ca0c315c74b225c11ee938b5c/transformed/media3-common-1.2.1/AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/e6ae1386833703f4916bae5f2c04f684/transformed/media3-exoplayer-1.2.1/AndroidManifest.xml:22:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/e6ae1386833703f4916bae5f2c04f684/transformed/media3-exoplayer-1.2.1/AndroidManifest.xml:22:5-79
+MERGED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:24:5-79
+MERGED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:18:5-68
+MERGED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:5-68
+MERGED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:18:22-65
+application
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:20:5-98:19
+INJECTED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:20:5-98:19
+MERGED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:22:5-54:19
+MERGED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:22:5-54:19
+MERGED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:28:5-143:19
+MERGED from [androidx.core:core-remoteviews:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/b2a3a0abd554ca5e1f5089d74c3f912f/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:23:5-28:19
+MERGED from [androidx.core:core-remoteviews:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/b2a3a0abd554ca5e1f5089d74c3f912f/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:23:5-28:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/82d476fb3b532e4407d96894d62d98b4/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/82d476fb3b532e4407d96894d62d98b4/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/6967703273fd00276df864de66a2bccf/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/6967703273fd00276df864de66a2bccf/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/4a3f5d0532844b19d90e0de0ad7728de/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/4a3f5d0532844b19d90e0de0ad7728de/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/dceda151997b0be4d43d3f722a75ceab/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/dceda151997b0be4d43d3f722a75ceab/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/8f5a26b55c7747d0e04ff7953aa068d8/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/8f5a26b55c7747d0e04ff7953aa068d8/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.6.1] /home/eyal/.gradle/caches/8.13/transforms/4d09bd5a400e89b6461eed3e317fc645/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /home/eyal/.gradle/caches/8.13/transforms/4d09bd5a400e89b6461eed3e317fc645/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/eyal/.gradle/caches/8.13/transforms/01ae04e82c941d2c2efc848241e184ff/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/eyal/.gradle/caches/8.13/transforms/01ae04e82c941d2c2efc848241e184ff/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/eyal/.gradle/caches/8.13/transforms/504b9db9837ad67b31c0266acc2037d3/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/eyal/.gradle/caches/8.13/transforms/504b9db9837ad67b31c0266acc2037d3/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/8f5a26b55c7747d0e04ff7953aa068d8/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:28:9-35
+	android:label
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:27:9-41
+	android:fullBackupContent
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:24:9-54
+	android:roundIcon
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:26:9-54
+	tools:targetApi
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:30:9-29
+	android:icon
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:25:9-43
+	android:allowBackup
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:22:9-35
+	android:theme
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:29:9-56
+	android:dataExtractionRules
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:23:9-65
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:21:9-47
+activity#com.homeretreat.planner.ui.MainActivity
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:32:9-41:20
+	android:launchMode
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:36:13-44
+	android:exported
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:34:13-36
+	android:theme
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:35:13-60
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:33:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:39:27-74
+receiver#com.homeretreat.planner.service.RetreatAlarmReceiver
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:43:9-46:40
+	android:enabled
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:44:13-57
+receiver#com.homeretreat.planner.service.RetreatStopReceiver
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:48:9-51:40
+	android:enabled
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:49:13-56
+service#com.homeretreat.planner.service.TalkPlayerService
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:53:9-61:19
+	android:enabled
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:55:13-35
+	android:exported
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:56:13-37
+	android:foregroundServiceType
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:57:13-58
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:54:13-54
+intent-filter#action:name:androidx.media3.session.MediaSessionService
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:58:13-60:29
+action#androidx.media3.session.MediaSessionService
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:59:17-86
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:59:25-83
+service#com.homeretreat.planner.service.MeditationTimerService
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:63:9-71:19
+	android:enabled
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:65:13-35
+	android:exported
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:66:13-37
+	android:foregroundServiceType
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:67:13-55
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:64:13-59
+property#android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:68:13-70:60
+	android:value
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:70:17-57
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:69:17-76
+receiver#com.homeretreat.planner.service.BootCompletedReceiver
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:73:9-80:20
+	android:enabled
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:75:13-35
+	android:exported
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:76:13-36
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:74:13-58
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:77:13-79:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:78:17-79
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:78:25-76
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:83:9-85:35
+	tools:node
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:85:13-32
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:84:13-64
+receiver#com.homeretreat.planner.ui.widget.RetreatWidgetReceiver
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:87:9-96:20
+	android:exported
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:89:13-36
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:88:13-60
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:90:13-92:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:91:17-84
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:91:25-81
+meta-data#android.appwidget.provider
+ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:93:13-95:63
+	android:resource
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:95:17-60
+	android:name
+		ADDED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml:94:17-58
+uses-sdk
+INJECTED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml
+INJECTED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml
+MERGED from [androidx.glance:glance:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/68ae0ee9341d4e48692e1dea5e0fb769/transformed/glance-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.glance:glance:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/68ae0ee9341d4e48692e1dea5e0fb769/transformed/glance-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-session:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/e5eb9f4e03b53628581819c6917a924d/transformed/media3-session-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-session:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/e5eb9f4e03b53628581819c6917a924d/transformed/media3-session-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/2857540be9bd713d8647f2fab314a954/transformed/media3-extractor-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-extractor:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/2857540be9bd713d8647f2fab314a954/transformed/media3-extractor-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/af7f88536285651799c9a21e641caf29/transformed/media3-container-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-container:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/af7f88536285651799c9a21e641caf29/transformed/media3-container-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/44c39ba8e760f211d4378144eae6cd35/transformed/media3-datasource-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-datasource:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/44c39ba8e760f211d4378144eae6cd35/transformed/media3-datasource-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/28807fb3b18d3b6acee3beeeb41aca39/transformed/media3-decoder-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-decoder:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/28807fb3b18d3b6acee3beeeb41aca39/transformed/media3-decoder-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/1112ccfbd027752420cf61c8ffd3bc0e/transformed/media3-database-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-database:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/1112ccfbd027752420cf61c8ffd3bc0e/transformed/media3-database-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/cefc961ca0c315c74b225c11ee938b5c/transformed/media3-common-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-common:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/cefc961ca0c315c74b225c11ee938b5c/transformed/media3-common-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/e6ae1386833703f4916bae5f2c04f684/transformed/media3-exoplayer-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/e6ae1386833703f4916bae5f2c04f684/transformed/media3-exoplayer-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.6.0] /home/eyal/.gradle/caches/8.13/transforms/ee1f64a231d325205ff5e4d01a491ef6/transformed/media-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] /home/eyal/.gradle/caches/8.13/transforms/ee1f64a231d325205ff5e4d01a491ef6/transformed/media-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-work:1.1.0] /home/eyal/.gradle/caches/8.13/transforms/f3ff3bec2e240827d29e267a64ae23aa/transformed/hilt-work-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.hilt:hilt-work:1.1.0] /home/eyal/.gradle/caches/8.13/transforms/f3ff3bec2e240827d29e267a64ae23aa/transformed/hilt-work-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/cc23c973752a365da40f416552b9e544/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime-ktx:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/cc23c973752a365da40f416552b9e544/transformed/work-runtime-ktx-2.9.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core-remoteviews:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/b2a3a0abd554ca5e1f5089d74c3f912f/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.core:core-remoteviews:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/b2a3a0abd554ca5e1f5089d74c3f912f/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.1.0] /home/eyal/.gradle/caches/8.13/transforms/29f3117d2cf75170fb37e950829499fd/transformed/hilt-navigation-compose-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation-compose:1.1.0] /home/eyal/.gradle/caches/8.13/transforms/29f3117d2cf75170fb37e950829499fd/transformed/hilt-navigation-compose-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.1.0] /home/eyal/.gradle/caches/8.13/transforms/dbd2887d191952ec155b6ebf8e462623/transformed/hilt-navigation-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.1.0] /home/eyal/.gradle/caches/8.13/transforms/dbd2887d191952ec155b6ebf8e462623/transformed/hilt-navigation-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /home/eyal/.gradle/caches/8.13/transforms/a5447834c45c07b298f13ee9c1b8bde9/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /home/eyal/.gradle/caches/8.13/transforms/a5447834c45c07b298f13ee9c1b8bde9/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/eyal/.gradle/caches/8.13/transforms/0eaf6ac51fb51fa8f8803ea9fb7ff091/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/eyal/.gradle/caches/8.13/transforms/0eaf6ac51fb51fa8f8803ea9fb7ff091/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /home/eyal/.gradle/caches/8.13/transforms/d2a76bec532e58fd99258c45ccd6e815/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.7.7] /home/eyal/.gradle/caches/8.13/transforms/d2a76bec532e58fd99258c45ccd6e815/transformed/navigation-common-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /home/eyal/.gradle/caches/8.13/transforms/6530c9731bfd5928ec0522c34df31137/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.7.7] /home/eyal/.gradle/caches/8.13/transforms/6530c9731bfd5928ec0522c34df31137/transformed/navigation-runtime-ktx-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /home/eyal/.gradle/caches/8.13/transforms/347932393770c65b9c550ce21f48d77e/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.7.7] /home/eyal/.gradle/caches/8.13/transforms/347932393770c65b9c550ce21f48d77e/transformed/navigation-compose-2.7.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.0] /home/eyal/.gradle/caches/8.13/transforms/1a9d7e5e66286570f259f2511e6a520e/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.2.0] /home/eyal/.gradle/caches/8.13/transforms/1a9d7e5e66286570f259f2511e6a520e/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/1863db7a449681f78b008f9b36ef1039/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/1863db7a449681f78b008f9b36ef1039/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/2bf2dce8a57e53f7b6f894f09ec4fafc/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/2bf2dce8a57e53f7b6f894f09ec4fafc/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/95fca6268d911532383248cf74252074/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/95fca6268d911532383248cf74252074/transformed/material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/4374d43a70575821ab252a7ac502da27/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/4374d43a70575821ab252a7ac502da27/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/2e083466547e4e5b1d6e520a64fd4e46/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/2e083466547e4e5b1d6e520a64fd4e46/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/035158dc20eadb7689015fe0d066c942/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/035158dc20eadb7689015fe0d066c942/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/a88786064d3062ace2fe0b94d502f55c/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/a88786064d3062ace2fe0b94d502f55c/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/3f81205ccbe8f30e0970fb24ed8f020a/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/3f81205ccbe8f30e0970fb24ed8f020a/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/74472e0a2469f6791f30df6b8c60dd9b/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/74472e0a2469f6791f30df6b8c60dd9b/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/afffc4ed9499c188828f2a644c8a99d2/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/afffc4ed9499c188828f2a644c8a99d2/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/6ff5064a3017c3ac90a450424fcad4a0/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/6ff5064a3017c3ac90a450424fcad4a0/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/3477ff65d341014d72283a1046115f13/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/3477ff65d341014d72283a1046115f13/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/09a3f9fc93ad98dccef100a0b087ef56/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/09a3f9fc93ad98dccef100a0b087ef56/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/158b9b97b73b99f9f7e592be90096a79/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/158b9b97b73b99f9f7e592be90096a79/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/82d476fb3b532e4407d96894d62d98b4/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/82d476fb3b532e4407d96894d62d98b4/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/a945d4d93c8a76bf96f4532d466a822d/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/a945d4d93c8a76bf96f4532d466a822d/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/6967703273fd00276df864de66a2bccf/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/6967703273fd00276df864de66a2bccf/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:hilt-android:2.50] /home/eyal/.gradle/caches/8.13/transforms/87cca34274c482b1df49cf750830cac2/transformed/hilt-android-2.50/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.50] /home/eyal/.gradle/caches/8.13/transforms/87cca34274c482b1df49cf750830cac2/transformed/hilt-android-2.50/AndroidManifest.xml:18:3-42
+MERGED from [androidx.fragment:fragment:1.5.1] /home/eyal/.gradle/caches/8.13/transforms/7e4a045d85fd6c4028105d9547a570a3/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] /home/eyal/.gradle/caches/8.13/transforms/7e4a045d85fd6c4028105d9547a570a3/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.2] /home/eyal/.gradle/caches/8.13/transforms/0aca980fd4eddea838dc5080bd33a187/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.2] /home/eyal/.gradle/caches/8.13/transforms/0aca980fd4eddea838dc5080bd33a187/transformed/activity-1.8.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/eyal/.gradle/caches/8.13/transforms/8b00d98bdda9f986dc6283a0a1f8cac9/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.2] /home/eyal/.gradle/caches/8.13/transforms/8b00d98bdda9f986dc6283a0a1f8cac9/transformed/activity-ktx-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/eyal/.gradle/caches/8.13/transforms/92ecb032feab501105725e78d82744c0/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.8.2] /home/eyal/.gradle/caches/8.13/transforms/92ecb032feab501105725e78d82744c0/transformed/activity-compose-1.8.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/396e23d79cfc2de86c6972c324f7c07d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/396e23d79cfc2de86c6972c324f7c07d/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/4a3f5d0532844b19d90e0de0ad7728de/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/4a3f5d0532844b19d90e0de0ad7728de/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/dceda151997b0be4d43d3f722a75ceab/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/dceda151997b0be4d43d3f722a75ceab/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/3eb70365aee9b727355d4c48f379a15d/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/3eb70365aee9b727355d4c48f379a15d/transformed/lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/4e05e662efd7b6659bb0fda9325d5e23/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/4e05e662efd7b6659bb0fda9325d5e23/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/6d0f93dfbe14a0bda2743b4a15cdc57f/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/6d0f93dfbe14a0bda2743b4a15cdc57f/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/b576c4e8504b5da6faa5a42621ae6045/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/b576c4e8504b5da6faa5a42621ae6045/transformed/lifecycle-viewmodel-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/643f58f1e53564488bd755e3e7df18f2/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/643f58f1e53564488bd755e3e7df18f2/transformed/lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/877195d6800d1e812a003175de107428/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/877195d6800d1e812a003175de107428/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/502943e5bd0ccac74acb1ad19687b414/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/eyal/.gradle/caches/8.13/transforms/502943e5bd0ccac74acb1ad19687b414/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/c945fdb7b02bc9275ee7fc0f215e81da/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/c945fdb7b02bc9275ee7fc0f215e81da/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/60a499a158e032de98d5239c682aa570/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/60a499a158e032de98d5239c682aa570/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/6178fe1a51527a8bb50acb1e16604f10/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/6178fe1a51527a8bb50acb1e16604f10/transformed/lifecycle-runtime-ktx-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/840e8f5a5bd35e840eaba3c7d066f3d1/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/840e8f5a5bd35e840eaba3c7d066f3d1/transformed/lifecycle-service-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/0cedf4195dfe8aa2fbbe16a346d2f889/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/0cedf4195dfe8aa2fbbe16a346d2f889/transformed/lifecycle-viewmodel-compose-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/b64ee38ee0bb4a1412361e9eb3798508/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/b64ee38ee0bb4a1412361e9eb3798508/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/e51b71afa5c36a90f6314a3665674aec/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/e51b71afa5c36a90f6314a3665674aec/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/a76efd80bdb3645c73250158b0cb8779/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/a76efd80bdb3645c73250158b0cb8779/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/ee6f28697be5585296b5a9f4ea9e8d1d/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/ee6f28697be5585296b5a9f4ea9e8d1d/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/8f5a26b55c7747d0e04ff7953aa068d8/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/8f5a26b55c7747d0e04ff7953aa068d8/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/126c144ae76bf35902f64ce38fce0d0a/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/126c144ae76bf35902f64ce38fce0d0a/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/3ab044a62cf333c3817138718403b7aa/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/3ab044a62cf333c3817138718403b7aa/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/eyal/.gradle/caches/8.13/transforms/4d09bd5a400e89b6461eed3e317fc645/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /home/eyal/.gradle/caches/8.13/transforms/4d09bd5a400e89b6461eed3e317fc645/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/eyal/.gradle/caches/8.13/transforms/6ac67f0a2298290d1aae71363375dd89/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /home/eyal/.gradle/caches/8.13/transforms/6ac67f0a2298290d1aae71363375dd89/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/eyal/.gradle/caches/8.13/transforms/201a873190e2111120690eba169683aa/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /home/eyal/.gradle/caches/8.13/transforms/201a873190e2111120690eba169683aa/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/eyal/.gradle/caches/8.13/transforms/2dc4d4e009ecdda565205bf71b66a8c1/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /home/eyal/.gradle/caches/8.13/transforms/2dc4d4e009ecdda565205bf71b66a8c1/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/ee4959dac26a7378a0d42a2d2baaeecf/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/ee4959dac26a7378a0d42a2d2baaeecf/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/4fe2b7cbdf7615d7756830f6bebf2ca2/transformed/datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/4fe2b7cbdf7615d7756830f6bebf2ca2/transformed/datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/889fa4c115919ee7b86afb0b1b5fe11c/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/889fa4c115919ee7b86afb0b1b5fe11c/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/4dacea827ffc6e52e4e21c7b3fedaf6c/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/4dacea827ffc6e52e4e21c7b3fedaf6c/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/eyal/.gradle/caches/8.13/transforms/4ad7c7b62bcb120a1749f9cf9c211212/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/eyal/.gradle/caches/8.13/transforms/4ad7c7b62bcb120a1749f9cf9c211212/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/eyal/.gradle/caches/8.13/transforms/01ae04e82c941d2c2efc848241e184ff/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/eyal/.gradle/caches/8.13/transforms/01ae04e82c941d2c2efc848241e184ff/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/eyal/.gradle/caches/8.13/transforms/6c91776298ea2363d9919aac65a06ecd/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/eyal/.gradle/caches/8.13/transforms/6c91776298ea2363d9919aac65a06ecd/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/eyal/.gradle/caches/8.13/transforms/e4ae4adecc4456c395b005a1dc36251d/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/eyal/.gradle/caches/8.13/transforms/e4ae4adecc4456c395b005a1dc36251d/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/c04999161055ff0429fd10d70eebe85b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/c04999161055ff0429fd10d70eebe85b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/eyal/.gradle/caches/8.13/transforms/504b9db9837ad67b31c0266acc2037d3/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/eyal/.gradle/caches/8.13/transforms/504b9db9837ad67b31c0266acc2037d3/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/75cf301a6d260d9afc44c14452d32b96/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/75cf301a6d260d9afc44c14452d32b96/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.50] /home/eyal/.gradle/caches/8.13/transforms/e8d854a852cd473a8ed0c78f1957686d/transformed/dagger-lint-aar-2.50/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.50] /home/eyal/.gradle/caches/8.13/transforms/e8d854a852cd473a8ed0c78f1957686d/transformed/dagger-lint-aar-2.50/AndroidManifest.xml:18:3-42
+	android:targetSdkVersion
+		INJECTED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/eyal/AndroidStudioProjects/HomeRetreat01/homeretreat/app/src/main/AndroidManifest.xml
+activity#androidx.glance.appwidget.action.ActionTrampolineActivity
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:23:9-27:40
+	android:enabled
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:25:13-35
+	android:excludeFromRecents
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:26:13-46
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:24:13-85
+activity#androidx.glance.appwidget.action.InvisibleActionTrampolineActivity
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:28:9-35:81
+	android:enabled
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:30:13-35
+	android:launchMode
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:32:13-48
+	android:noHistory
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:33:13-37
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:31:13-37
+	android:theme
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:35:13-78
+	android:taskAffinity
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:34:13-91
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:29:13-94
+receiver#androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:37:9-40:40
+	android:enabled
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:39:13-35
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:38:13-92
+receiver#androidx.glance.appwidget.MyPackageReplacedReceiver
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:41:9-48:20
+	android:enabled
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:43:13-35
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:42:13-79
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:45:13-47:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:46:17-84
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:46:25-81
+service#androidx.glance.appwidget.GlanceRemoteViewsService
+ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:50:9-53:72
+	android:exported
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:52:13-36
+	android:permission
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:53:13-69
+	android:name
+		ADDED from [androidx.glance:glance-appwidget:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/5bf1468aa1d8a7cb2cc76b1fbedfc6f6/transformed/glance-appwidget-1.0.0/AndroidManifest.xml:51:13-78
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:29:9-37:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/4a3f5d0532844b19d90e0de0ad7728de/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/4a3f5d0532844b19d90e0de0ad7728de/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/dceda151997b0be4d43d3f722a75ceab/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/dceda151997b0be4d43d3f722a75ceab/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/eyal/.gradle/caches/8.13/transforms/504b9db9837ad67b31c0266acc2037d3/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/eyal/.gradle/caches/8.13/transforms/504b9db9837ad67b31c0266acc2037d3/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:33:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:30:13-67
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:39:9-45:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:43:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:44:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:45:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:46:9-52:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:49:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:50:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:51:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:52:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:48:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:47:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:53:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:56:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:57:13-37
+	tools:ignore
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:58:13-60
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:55:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:54:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.9.0] /home/eyal/.gradle/caches/8.13/transforms/f2dae4fe6ece8d702e358b20feb026db/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:25-85
+service#androidx.core.widget.RemoteViewsCompatService
+ADDED from [androidx.core:core-remoteviews:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/b2a3a0abd554ca5e1f5089d74c3f912f/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:24:9-27:63
+	tools:ignore
+		ADDED from [androidx.core:core-remoteviews:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/b2a3a0abd554ca5e1f5089d74c3f912f/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:27:13-60
+	android:permission
+		ADDED from [androidx.core:core-remoteviews:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/b2a3a0abd554ca5e1f5089d74c3f912f/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:26:13-69
+	android:name
+		ADDED from [androidx.core:core-remoteviews:1.0.0] /home/eyal/.gradle/caches/8.13/transforms/b2a3a0abd554ca5e1f5089d74c3f912f/transformed/core-remoteviews-1.0.0/AndroidManifest.xml:25:13-73
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/82d476fb3b532e4407d96894d62d98b4/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/82d476fb3b532e4407d96894d62d98b4/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/82d476fb3b532e4407d96894d62d98b4/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/6967703273fd00276df864de66a2bccf/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/6967703273fd00276df864de66a2bccf/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.6.1] /home/eyal/.gradle/caches/8.13/transforms/6967703273fd00276df864de66a2bccf/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:24:13-63
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/4a3f5d0532844b19d90e0de0ad7728de/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/4a3f5d0532844b19d90e0de0ad7728de/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/4a3f5d0532844b19d90e0de0ad7728de/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/dceda151997b0be4d43d3f722a75ceab/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/dceda151997b0be4d43d3f722a75ceab/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /home/eyal/.gradle/caches/8.13/transforms/dceda151997b0be4d43d3f722a75ceab/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/8f5a26b55c7747d0e04ff7953aa068d8/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/8f5a26b55c7747d0e04ff7953aa068d8/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/8f5a26b55c7747d0e04ff7953aa068d8/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.homeretreat.planner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/8f5a26b55c7747d0e04ff7953aa068d8/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/8f5a26b55c7747d0e04ff7953aa068d8/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/8f5a26b55c7747d0e04ff7953aa068d8/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/8f5a26b55c7747d0e04ff7953aa068d8/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/8f5a26b55c7747d0e04ff7953aa068d8/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.homeretreat.planner.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/8f5a26b55c7747d0e04ff7953aa068d8/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/eyal/.gradle/caches/8.13/transforms/8f5a26b55c7747d0e04ff7953aa068d8/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /home/eyal/.gradle/caches/8.13/transforms/4d09bd5a400e89b6461eed3e317fc645/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/eyal/.gradle/caches/8.13/transforms/4d09bd5a400e89b6461eed3e317fc645/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/eyal/.gradle/caches/8.13/transforms/4d09bd5a400e89b6461eed3e317fc645/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/eyal/.gradle/caches/8.13/transforms/4d09bd5a400e89b6461eed3e317fc645/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /home/eyal/.gradle/caches/8.13/transforms/4d09bd5a400e89b6461eed3e317fc645/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/eyal/.gradle/caches/8.13/transforms/575783dd640ad42ccf03107b617179af/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

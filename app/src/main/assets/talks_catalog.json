@@ -1,0 +1,90 @@
+[
+  {
+    "id": "thanissaro_basics_01",
+    "title": "Strength from the Basics (Updated)",
+    "teacher": "Thanissaro Bhikkhu",
+    "remoteUrl": "https://www.dhammatalks.org/Archive/basics_collection/01%20Strength%20from%20the%20Basics.mp3",
+    "localPath": null,
+    "downloadStatus": "NOT_STARTED",
+    "durationMinutes": 15,
+    "category": "Basics",
+    "description": "First talk in the Basics collection, remastered for clarity. This title was updated to verify refresh."
+  },
+  {
+    "id": "thanissaro_basics_02",
+    "title": "Basics",
+    "teacher": "Thanissaro Bhikkhu",
+    "remoteUrl": "https://www.dhammatalks.org/Archive/basics_collection/02%20Basics.mp3",
+    "localPath": null,
+    "downloadStatus": "NOT_STARTED",
+    "durationMinutes": 12,
+    "category": "Basics",
+    "description": "Foundational instructions for meditation practice."
+  },
+  {
+    "id": "thanissaro_basics_03",
+    "title": "Stay with the Breath",
+    "teacher": "Thanissaro Bhikkhu",
+    "remoteUrl": "https://www.dhammatalks.org/Archive/basics_collection/03%20Stay%20with%20the%20Breath.mp3",
+    "localPath": null,
+    "downloadStatus": "NOT_STARTED",
+    "durationMinutes": 14,
+    "category": "Basics",
+    "description": "Developing constancy and focus with the breath."
+  },
+  {
+    "id": "thanissaro_basics_04",
+    "title": "Breath by Breath",
+    "teacher": "Thanissaro Bhikkhu",
+    "remoteUrl": "https://www.dhammatalks.org/Archive/basics_collection/04%20Breath%20by%20Breath.mp3",
+    "localPath": null,
+    "downloadStatus": "NOT_STARTED",
+    "durationMinutes": 16,
+    "category": "Basics",
+    "description": "Learning to observe the breath as it happens in the moment."
+  },
+  {
+    "id": "thanissaro_basics_05",
+    "title": "Analyzing the Breath",
+    "teacher": "Thanissaro Bhikkhu",
+    "remoteUrl": "https://www.dhammatalks.org/Archive/basics_collection/05%20Analyzing%20the%20Breath.mp3",
+    "localPath": null,
+    "downloadStatus": "NOT_STARTED",
+    "durationMinutes": 18,
+    "category": "Basics",
+    "description": "Using discernment to evaluate and improve the quality of the breath."
+  },
+  {
+    "id": "thanissaro_basics_06",
+    "title": "The Skill of Meditation",
+    "teacher": "Thanissaro Bhikkhu",
+    "remoteUrl": "https://www.dhammatalks.org/Archive/basics_collection/01%20The%20Skill%20of%20Meditation.mp3",
+    "localPath": null,
+    "downloadStatus": "NOT_STARTED",
+    "durationMinutes": 52,
+    "category": "Basics",
+    "description": "Comprehensive guide to the skill of meditation."
+  },
+  {
+    "id": "thanissaro_basics_07",
+    "title": "New: The Power of Discernment",
+    "teacher": "Thanissaro Bhikkhu",
+    "remoteUrl": "https://www.dhammatalks.org/Archive/basics_collection/04%20Breath%20by%20Breath.mp3",
+    "localPath": null,
+    "downloadStatus": "NOT_STARTED",
+    "durationMinutes": 42,
+    "category": "Wisdom",
+    "description": "A newly added talk to verify the refresh feature works."
+  },
+  {
+    "id": "thanissaro_basics_08",
+    "title": "New: A Burden of One's Own",
+    "teacher": "Thanissaro Bhikkhu",
+    "remoteUrl": "https://www.dhammatalks.org/Archive/basics_collection/05%20Analyzing%20the%20Breath.mp3",
+    "localPath": null,
+    "downloadStatus": "NOT_STARTED",
+    "durationMinutes": 38,
+    "category": "Basics",
+    "description": "Understanding the burdens we carry and how to lay them down."
+  }
+]

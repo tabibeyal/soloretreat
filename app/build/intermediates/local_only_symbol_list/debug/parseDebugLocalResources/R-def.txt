@@ -1,0 +1,18 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable ic_notification
+drawable ic_stop
+drawable widget_background
+layout retreat_widget_loading
+layout retreat_widget_preview
+mipmap ic_launcher
+mipmap ic_launcher_round
+raw bell_end
+raw bell_start
+string app_name
+style Theme.HomeRetreatPlanner
+xml backup_rules
+xml data_extraction_rules
+xml retreat_widget_info
