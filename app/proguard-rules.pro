@@ -1,8 +1,8 @@
 # ProGuard rules for Solo Retreat Planner
 
 # Keep Room entities
--keep class com.homeretreat.planner.data.local.entity.* { *; }
--keep class com.homeretreat.planner.data.model.* { *; }
+-keep class com.soloretreat.data.local.entity.* { *; }
+-keep class com.soloretreat.data.model.* { *; }
 
 # Keep serializers
 -keepattributes *Annotation*
