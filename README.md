@@ -1,6 +1,6 @@
 # Solo Retreat Planner
 
-A single-user, offline-first Android application for planning and executing solo home meditation retreats. Built with Kotlin, Jetpack Compose, Room, Hilt, and WorkManager.
+A single-user, offline-first Android application for planning and executing solo meditation retreats. Built with Kotlin, Jetpack Compose, Room, Hilt, and WorkManager.
 
 ## Architecture Overview
 
