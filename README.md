@@ -2,6 +2,8 @@
 
 A single-user, offline-first Android application for planning and executing solo meditation retreats. Built with Kotlin, Jetpack Compose, Room, Hilt, and WorkManager.
 
+**Privacy Focus**: This app is fully offline-first, contains no proprietary dependencies, and performs no user tracking.
+
 ## Architecture Overview
 
 The app follows a clean MVVM + Repository architecture with three distinct phases:
