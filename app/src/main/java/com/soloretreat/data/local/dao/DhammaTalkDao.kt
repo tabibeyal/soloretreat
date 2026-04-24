@@ -15,16 +15,16 @@ interface DhammaTalkDao {
     @Query("SELECT * FROM dhamma_talks ORDER BY category, title")
     fun getAllTalks(): Flow<List<DhammaTalk>>
 
-    @Query("SELECT * FROM dhamma_talks WHERE revealedAt IS NOT NULL ORDER BY revealedAt DESC")
+    @Query("SELECT * FROM dhamma_talks WHERE revealedAt IS NOT NULL AND category != 'Chants' ORDER BY revealedAt DESC")
     fun getRevealedTalks(): Flow<List<DhammaTalk>>
 
     @Query("SELECT * FROM dhamma_talks WHERE category = :category ORDER BY title")
     fun getTalksByCategory(category: String): Flow<List<DhammaTalk>>
 
-    @Query("SELECT COUNT(*) FROM dhamma_talks WHERE revealedAt IS NOT NULL")
+    @Query("SELECT COUNT(*) FROM dhamma_talks WHERE revealedAt IS NOT NULL AND category != 'Chants'")
     suspend fun countRevealed(): Int
 
-    @Query("SELECT id FROM dhamma_talks WHERE revealedAt IS NULL ORDER BY id LIMIT :limit")
+    @Query("SELECT id FROM dhamma_talks WHERE revealedAt IS NULL AND category != 'Chants' ORDER BY id LIMIT :limit")
     suspend fun getUnrevealedIds(limit: Int): List<String>
 
     @Query("UPDATE dhamma_talks SET revealedAt = :timestamp WHERE id IN (:ids)")
