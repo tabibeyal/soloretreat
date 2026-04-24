@@ -45,6 +45,7 @@ import kotlinx.coroutines.launch
 @Composable
 fun RetreatSummaryScreen(
     onNavigateBack: () -> Unit,
+    onFeedback: () -> Unit,
     onDone: () -> Unit,
     viewModel: RetreatSummaryViewModel = hiltViewModel()
 ) {
@@ -186,6 +187,14 @@ fun RetreatSummaryScreen(
                 modifier = Modifier.fillMaxWidth()
             ) {
                 Text("Return Home")
+            }
+
+            // Feedback button
+            TextButton(
+                onClick = onFeedback,
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text("Send Feedback")
             }
 
             Spacer(modifier = Modifier.height(24.dp))

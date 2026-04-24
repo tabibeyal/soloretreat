@@ -6,6 +6,7 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
+import com.soloretreat.ui.integration.FeedbackScreen
 import com.soloretreat.ui.integration.JournalEntryScreen
 import com.soloretreat.ui.integration.JournalListScreen
 import com.soloretreat.ui.integration.RetreatSummaryScreen
@@ -124,11 +125,18 @@ fun HomeRetreatNavHost(
         composable(Screen.RetreatSummary.route) {
             RetreatSummaryScreen(
                 onNavigateBack = { navController.popBackStack() },
+                onFeedback = { navController.navigate(Screen.Feedback.route) },
                 onDone = {
                     navController.navigate(Screen.PreparationDashboard.route) {
                         popUpTo(Screen.RetreatSummary.route) { inclusive = true }
                     }
                 }
+            )
+        }
+
+        composable(Screen.Feedback.route) {
+            FeedbackScreen(
+                onNavigateBack = { navController.popBackStack() }
             )
         }
     }
@@ -157,4 +165,5 @@ sealed class Screen(val route: String) {
         }
     }
     data object RetreatSummary : Screen("retreat_summary")
+    data object Feedback : Screen("feedback")
 }
