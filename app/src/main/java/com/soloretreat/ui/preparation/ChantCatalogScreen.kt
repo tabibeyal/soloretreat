@@ -92,7 +92,7 @@ fun ChantCatalogScreen(
                 verticalArrangement = Arrangement.spacedBy(8.dp),
                 contentPadding = PaddingValues(bottom = 16.dp)
             ) {
-                items(chants) { chant ->
+                items(chants, key = { it.id }) { chant ->
                     ChantCard(
                         chant = chant,
                         isPlaying = isPlaying && currentlyPlayingId == chant.id,

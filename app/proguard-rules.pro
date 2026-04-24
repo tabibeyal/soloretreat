@@ -1,4 +1,4 @@
-# ProGuard rules for Solo Retreat Planner
+# ProGuard rules for SoloRetreat
 
 # Keep Room entities
 -keep class com.soloretreat.data.local.entity.* { *; }
