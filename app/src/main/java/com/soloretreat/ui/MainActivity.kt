@@ -17,6 +17,8 @@ import com.soloretreat.data.repository.RetreatRepository
 import com.soloretreat.ui.navigation.HomeRetreatNavHost
 import com.soloretreat.ui.navigation.Screen
 import com.soloretreat.ui.theme.HomeRetreatTheme
+import androidx.glance.appwidget.updateAll
+import com.soloretreat.ui.widget.RetreatWidget
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -55,6 +57,17 @@ class MainActivity : ComponentActivity() {
                         startDestination = startDestination
                     )
                 }
+            }
+        }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        lifecycleScope.launch {
+            try {
+                RetreatWidget().updateAll(applicationContext)
+            } catch (e: Exception) {
+                android.util.Log.e("MainActivity", "Widget update failed", e)
             }
         }
     }

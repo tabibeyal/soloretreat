@@ -1,5 +1,6 @@
 package com.soloretreat.ui.retreat
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -14,6 +15,8 @@ import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.DateRange
 import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Fastfood
+import androidx.compose.material.icons.filled.Headphones
+import androidx.compose.material.icons.filled.MusicNote
 import androidx.compose.material.icons.filled.Timer
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
@@ -42,6 +45,9 @@ fun RetreatDashboardScreen(
     onPrecepts: () -> Unit,
     onMeal: () -> Unit,
     onJournal: () -> Unit,
+    onSchedule: () -> Unit,
+    onChants: () -> Unit,
+    onTalks: () -> Unit,
     onEndRetreat: () -> Unit,
     viewModel: RetreatDashboardViewModel = hiltViewModel()
 ) {
@@ -98,19 +104,27 @@ fun RetreatDashboardScreen(
             }
 
             // Current / Next block
-            state.currentBlock?.let { block ->
-                Card(
-                    modifier = Modifier.fillMaxWidth(),
-                    colors = CardDefaults.cardColors(
-                        containerColor = MaterialTheme.colorScheme.secondaryContainer
-                    )
+            val currentBlock = state.currentBlock
+            val nextBlock = state.nextBlock
+
+            Card(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clickable { onSchedule() },
+                colors = CardDefaults.cardColors(
+                    containerColor = if (currentBlock != null)
+                        MaterialTheme.colorScheme.secondaryContainer
+                    else
+                        MaterialTheme.colorScheme.surfaceVariant
+                )
+            ) {
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(16.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-                    Column(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(16.dp),
-                        horizontalAlignment = Alignment.CenterHorizontally
-                    ) {
+                    if (currentBlock != null) {
                         Text(
                             text = "Current Block",
                             style = MaterialTheme.typography.labelLarge,
@@ -118,42 +132,40 @@ fun RetreatDashboardScreen(
                         )
                         Spacer(modifier = Modifier.height(4.dp))
                         Text(
-                            text = block.activityType.displayName,
+                            text = currentBlock.activityType.displayName,
                             style = MaterialTheme.typography.headlineSmall
                         )
                         Text(
-                            text = "${TimeUtils.formatTime(block.startTime)} - ${TimeUtils.formatTime(block.endTime)}",
+                            text = "${TimeUtils.formatTime(currentBlock.startTime)} - ${TimeUtils.formatTime(currentBlock.endTime)}",
                             style = MaterialTheme.typography.bodyLarge
                         )
-                    }
-                }
-            } ?: state.nextBlock?.let { block ->
-                Card(
-                    modifier = Modifier.fillMaxWidth(),
-                    colors = CardDefaults.cardColors(
-                        containerColor = MaterialTheme.colorScheme.surfaceVariant
-                    )
-                ) {
-                    Column(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(16.dp),
-                        horizontalAlignment = Alignment.CenterHorizontally
-                    ) {
+                    } else if (nextBlock != null) {
                         Text(
-                            text = "Next: ${block.activityType.displayName}",
+                            text = "Next: ${nextBlock.activityType.displayName}",
                             style = MaterialTheme.typography.titleMedium
                         )
                         Spacer(modifier = Modifier.height(4.dp))
                         CountdownDisplay(
-                            targetTime = block.startTime,
+                            targetTime = nextBlock.startTime,
                             label = "Starts in",
                             timerStyle = MaterialTheme.typography.headlineLarge.copy(
                                 fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace,
                                 fontFeatureSettings = "tnum"
                             )
                         )
+                    } else {
+                        Text(
+                            text = "No more blocks today",
+                            style = MaterialTheme.typography.titleMedium
+                        )
                     }
+                    
+                    Spacer(modifier = Modifier.height(8.dp))
+                    Text(
+                        text = "Tap to view full schedule",
+                        style = MaterialTheme.typography.labelSmall,
+                        color = MaterialTheme.colorScheme.primary
+                    )
                 }
             }
 
@@ -212,6 +224,24 @@ fun RetreatDashboardScreen(
                     icon = Icons.Default.Fastfood,
                     label = "Meal Log",
                     onClick = onMeal
+                )
+            }
+
+            Spacer(modifier = Modifier.height(4.dp))
+
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceEvenly
+            ) {
+                QuickActionButton(
+                    icon = Icons.Default.MusicNote,
+                    label = "Chants",
+                    onClick = onChants
+                )
+                QuickActionButton(
+                    icon = Icons.Default.Headphones,
+                    label = "Talks",
+                    onClick = onTalks
                 )
             }
 

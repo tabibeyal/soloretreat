@@ -46,37 +46,11 @@ class RetreatWidget : GlanceAppWidget() {
     }
 
     override suspend fun provideGlance(context: Context, id: GlanceId) {
-        val entryPoint = EntryPoints.get(
-            context.applicationContext,
-            RetreatWidgetEntryPoint::class.java
-        )
-        val retreatRepository = entryPoint.retreatRepository()
-        val scheduleRepository = entryPoint.scheduleRepository()
-
-        val config = retreatRepository.getConfigSync()
-        
-        val widgetData = if (config != null && config.phase == Phase.IN_PROGRESS) {
-            val startDate = config.startDate
-            val endDate = config.endDate
-            if (startDate != null && endDate != null) {
-                val dayOfRetreat = TimeUtils.dayOfRetreat(startDate)
-                val totalDays = TimeUtils.daysBetween(startDate, endDate)
-                val now = LocalTime.now()
-                val dayOffset = dayOfRetreat - 1
-                
-                val current = scheduleRepository.getCurrentBlock(dayOffset, now)
-                val next = scheduleRepository.getNextBlock(dayOffset, now)
-                
-                WidgetData.Active(
-                    day = dayOfRetreat,
-                    totalDays = totalDays,
-                    currentBlock = current,
-                    nextBlock = next,
-                    mealCutoffApproaching = TimeUtils.isMealCutoffApproaching()
-                )
-            } else WidgetData.NoRetreat
-        } else {
-            WidgetData.NoRetreat
+        val widgetData = try {
+            loadWidgetData(context)
+        } catch (e: Exception) {
+            android.util.Log.e("RetreatWidget", "Failed to load widget data", e)
+            WidgetData.Error(e.message ?: "Unknown error")
         }
 
         provideContent {
@@ -84,8 +58,40 @@ class RetreatWidget : GlanceAppWidget() {
         }
     }
 
+    private suspend fun loadWidgetData(context: Context): WidgetData {
+        val entryPoint = EntryPoints.get(
+            context.applicationContext,
+            RetreatWidgetEntryPoint::class.java
+        )
+        val retreatRepository = entryPoint.retreatRepository()
+        val scheduleRepository = entryPoint.scheduleRepository()
+
+        val config = retreatRepository.getConfigSync() ?: return WidgetData.NoRetreat
+        val startDate = config.startDate ?: return WidgetData.NoRetreat
+        val endDate = config.endDate ?: return WidgetData.NoRetreat
+
+        if (config.phase != Phase.IN_PROGRESS) return WidgetData.NoRetreat
+
+        val dayOfRetreat = TimeUtils.dayOfRetreat(startDate)
+        val totalDays = TimeUtils.daysBetween(startDate, endDate)
+        val now = LocalTime.now()
+        val dayOffset = (dayOfRetreat - 1).coerceAtLeast(0)
+
+        val current = scheduleRepository.getCurrentBlock(dayOffset, now)
+        val next = scheduleRepository.getNextBlock(dayOffset, now)
+
+        return WidgetData.Active(
+            day = dayOfRetreat,
+            totalDays = totalDays,
+            currentBlock = current,
+            nextBlock = next,
+            mealCutoffApproaching = TimeUtils.isMealCutoffApproaching()
+        )
+    }
+
     sealed class WidgetData {
         data object NoRetreat : WidgetData()
+        data class Error(val message: String) : WidgetData()
         data class Active(
             val day: Int,
             val totalDays: Int,
@@ -112,6 +118,16 @@ class RetreatWidget : GlanceAppWidget() {
                         style = TextStyle(
                             color = ColorProvider(color = Cream),
                             fontSize = 16.sp,
+                            fontWeight = FontWeight.Medium
+                        )
+                    )
+                }
+                is WidgetData.Error -> {
+                    Text(
+                        text = "Widget error",
+                        style = TextStyle(
+                            color = ColorProvider(color = Cream),
+                            fontSize = 14.sp,
                             fontWeight = FontWeight.Medium
                         )
                     )

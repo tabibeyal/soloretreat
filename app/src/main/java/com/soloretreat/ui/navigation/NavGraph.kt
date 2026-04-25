@@ -83,6 +83,9 @@ fun HomeRetreatNavHost(
                 onPrecepts = { navController.navigate(Screen.PreceptTracker.route) },
                 onMeal = { navController.navigate(Screen.MealLog.route) },
                 onJournal = { navController.navigate(Screen.JournalList.route) },
+                onSchedule = { navController.navigate(Screen.ScheduleBuilder.route) },
+                onChants = { navController.navigate(Screen.ChantCatalog.route) },
+                onTalks = { navController.navigate(Screen.TalkCatalog.route) },
                 onEndRetreat = { navController.navigate(Screen.RetreatSummary.route) }
             )
         }
