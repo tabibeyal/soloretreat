@@ -135,7 +135,6 @@ fun HomeRetreatNavHost(
 
         composable(Screen.RetreatSummary.route) {
             RetreatSummaryScreen(
-                onNavigateBack = { navController.popBackStack() },
                 onFeedback = { navController.navigate(Screen.Feedback.route) },
                 onDone = {
                     navController.navigate(Screen.PreparationDashboard.route) {

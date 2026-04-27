@@ -44,7 +44,6 @@ import kotlinx.coroutines.launch
 
 @Composable
 fun RetreatSummaryScreen(
-    onNavigateBack: () -> Unit,
     onFeedback: () -> Unit,
     onDone: () -> Unit,
     viewModel: RetreatSummaryViewModel = hiltViewModel()
@@ -57,7 +56,6 @@ fun RetreatSummaryScreen(
         topBar = {
             RetreatAppBar(
                 title = "Retreat Summary",
-                onNavigateBack = onNavigateBack,
                 actions = {
                     IconButton(onClick = {
                         scope.launch {
@@ -107,8 +105,9 @@ fun RetreatSummaryScreen(
                         config.startDate?.let { start ->
                             config.endDate?.let { end ->
                                 val days = TimeUtils.daysBetween(start, end)
+                                val dayText = if (days == 1) "1 day" else "$days days"
                                 Text(
-                                    text = "$days days \u2022 ${TimeUtils.formatFullDate(start)} to ${TimeUtils.formatFullDate(end)}",
+                                    text = "$dayText \u2022 ${TimeUtils.formatFullDate(start)} to ${TimeUtils.formatFullDate(end)}",
                                     style = MaterialTheme.typography.bodyLarge,
                                     color = MaterialTheme.colorScheme.onPrimaryContainer
                                 )
@@ -119,30 +118,50 @@ fun RetreatSummaryScreen(
             }
 
             // Sitting meditation stats
-            Card(modifier = Modifier.fillMaxWidth()) {
-                Column(modifier = Modifier.padding(16.dp)) {
-                    Text(
-                        text = "Sitting Meditation",
-                        style = MaterialTheme.typography.titleMedium
-                    )
-                    Spacer(modifier = Modifier.height(8.dp))
-                    StatRow(label = "Total Time", value = state.formattedSittingTime)
-                    StatRow(label = "Completed Sessions", value = "${state.sittingCompleted}")
-                    StatRow(label = "Interrupted Sessions", value = "${state.sittingInterrupted}")
+            if (state.sittingCompleted + state.sittingInterrupted > 0) {
+                Card(modifier = Modifier.fillMaxWidth()) {
+                    Column(modifier = Modifier.padding(16.dp)) {
+                        Text(
+                            text = "Sitting Meditation",
+                            style = MaterialTheme.typography.titleMedium
+                        )
+                        Spacer(modifier = Modifier.height(8.dp))
+                        StatRow(label = "Total Time", value = state.formattedSittingTime)
+                        StatRow(label = "Completed Sessions", value = "${state.sittingCompleted}")
+                        StatRow(label = "Interrupted Sessions", value = "${state.sittingInterrupted}")
+                    }
                 }
             }
 
             // Walking meditation stats
-            Card(modifier = Modifier.fillMaxWidth()) {
-                Column(modifier = Modifier.padding(16.dp)) {
-                    Text(
-                        text = "Walking Meditation",
-                        style = MaterialTheme.typography.titleMedium
-                    )
-                    Spacer(modifier = Modifier.height(8.dp))
-                    StatRow(label = "Total Time", value = state.formattedWalkingTime)
-                    StatRow(label = "Completed Sessions", value = "${state.walkingCompleted}")
-                    StatRow(label = "Interrupted Sessions", value = "${state.walkingInterrupted}")
+            if (state.walkingCompleted + state.walkingInterrupted > 0) {
+                Card(modifier = Modifier.fillMaxWidth()) {
+                    Column(modifier = Modifier.padding(16.dp)) {
+                        Text(
+                            text = "Walking Meditation",
+                            style = MaterialTheme.typography.titleMedium
+                        )
+                        Spacer(modifier = Modifier.height(8.dp))
+                        StatRow(label = "Total Time", value = state.formattedWalkingTime)
+                        StatRow(label = "Completed Sessions", value = "${state.walkingCompleted}")
+                        StatRow(label = "Interrupted Sessions", value = "${state.walkingInterrupted}")
+                    }
+                }
+            }
+
+            // Other timed activities (chants, talks, etc.)
+            state.otherActivities.forEach { stat ->
+                Card(modifier = Modifier.fillMaxWidth()) {
+                    Column(modifier = Modifier.padding(16.dp)) {
+                        Text(
+                            text = stat.displayName,
+                            style = MaterialTheme.typography.titleMedium
+                        )
+                        Spacer(modifier = Modifier.height(8.dp))
+                        StatRow(label = "Total Time", value = stat.formattedTime)
+                        StatRow(label = "Completed Sessions", value = "${stat.completed}")
+                        StatRow(label = "Interrupted Sessions", value = "${stat.interrupted}")
+                    }
                 }
             }
 
