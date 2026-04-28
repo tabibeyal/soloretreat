@@ -55,20 +55,23 @@ fun RetreatSummaryScreen(
     Scaffold(
         topBar = {
             RetreatAppBar(
-                title = "Retreat Summary",
+                title = stringResource(R.string.retreat_summary_title),
                 actions = {
                     IconButton(onClick = {
                         scope.launch {
                             val exportText = viewModel.generateExportText()
                             val intent = Intent(Intent.ACTION_SEND).apply {
                                 type = "text/plain"
-                                putExtra(Intent.EXTRA_SUBJECT, "My Solo Retreat Summary")
+                                putExtra(Intent.EXTRA_SUBJECT, context.getString(R.string.share_subject))
                                 putExtra(Intent.EXTRA_TEXT, exportText)
                             }
-                            context.startActivity(Intent.createChooser(intent, "Share Retreat Summary"))
+                            context.startActivity(Intent.createChooser(intent, context.getString(R.string.share_chooser_title)))
                         }
                     }) {
-                        Icon(Icons.Default.Share, contentDescription = "Share")
+                        Icon(
+                            imageVector = Icons.Default.Share,
+                            contentDescription = stringResource(R.string.share_content_description)
+                        )
                     }
                 }
             )
@@ -95,17 +98,21 @@ fun RetreatSummaryScreen(
                     Column(
                         modifier = Modifier
                             .fillMaxWidth()
-                        .padding(16.dp),
+                            .padding(16.dp),
                         horizontalAlignment = Alignment.CenterHorizontally
                     ) {
                         Text(
-                            text = "Retreat Complete",
+                            text = stringResource(R.string.retreat_complete),
                             style = MaterialTheme.typography.headlineSmall
                         )
                         config.startDate?.let { start ->
                             config.endDate?.let { end ->
                                 val days = TimeUtils.daysBetween(start, end)
-                                val dayText = if (days == 1) "1 day" else "$days days"
+                                val dayText = if (days == 1) {
+                                    "1 day"
+                                } else {
+                                    "$days days"
+                                }
                                 Text(
                                     text = "$dayText \u2022 ${TimeUtils.formatFullDate(start)} to ${TimeUtils.formatFullDate(end)}",
                                     style = MaterialTheme.typography.bodyLarge,
@@ -122,13 +129,22 @@ fun RetreatSummaryScreen(
                 Card(modifier = Modifier.fillMaxWidth()) {
                     Column(modifier = Modifier.padding(16.dp)) {
                         Text(
-                            text = "Sitting Meditation",
+                            text = stringResource(R.string.sitting_meditation),
                             style = MaterialTheme.typography.titleMedium
                         )
                         Spacer(modifier = Modifier.height(8.dp))
-                        StatRow(label = "Total Time", value = state.formattedSittingTime)
-                        StatRow(label = "Completed Sessions", value = "${state.sittingCompleted}")
-                        StatRow(label = "Interrupted Sessions", value = "${state.sittingInterrupted}")
+                        StatRow(
+                            label = stringResource(R.string.total_time),
+                            value = state.formattedSittingTime
+                        )
+                        StatRow(
+                            label = stringResource(R.string.completed_sessions),
+                            value = "${state.sittingCompleted}"
+                        )
+                        StatRow(
+                            label = stringResource(R.string.interrupted_sessions),
+                            value = "${state.sittingInterrupted}"
+                        )
                     }
                 }
             }
@@ -138,13 +154,22 @@ fun RetreatSummaryScreen(
                 Card(modifier = Modifier.fillMaxWidth()) {
                     Column(modifier = Modifier.padding(16.dp)) {
                         Text(
-                            text = "Walking Meditation",
+                            text = stringResource(R.string.walking_meditation),
                             style = MaterialTheme.typography.titleMedium
                         )
                         Spacer(modifier = Modifier.height(8.dp))
-                        StatRow(label = "Total Time", value = state.formattedWalkingTime)
-                        StatRow(label = "Completed Sessions", value = "${state.walkingCompleted}")
-                        StatRow(label = "Interrupted Sessions", value = "${state.walkingInterrupted}")
+                        StatRow(
+                            label = stringResource(R.string.total_time),
+                            value = state.formattedWalkingTime
+                        )
+                        StatRow(
+                            label = stringResource(R.string.completed_sessions),
+                            value = "${state.walkingCompleted}"
+                        )
+                        StatRow(
+                            label = stringResource(R.string.interrupted_sessions),
+                            value = "${state.walkingInterrupted}"
+                        )
                     }
                 }
             }
@@ -158,9 +183,18 @@ fun RetreatSummaryScreen(
                             style = MaterialTheme.typography.titleMedium
                         )
                         Spacer(modifier = Modifier.height(8.dp))
-                        StatRow(label = "Total Time", value = stat.formattedTime)
-                        StatRow(label = "Completed Sessions", value = "${stat.completed}")
-                        StatRow(label = "Interrupted Sessions", value = "${stat.interrupted}")
+                        StatRow(
+                            label = stringResource(R.string.total_time),
+                            value = stat.formattedTime
+                        )
+                        StatRow(
+                            label = stringResource(R.string.completed_sessions),
+                            value = "${stat.completed}"
+                        )
+                        StatRow(
+                            label = stringResource(R.string.interrupted_sessions),
+                            value = "${stat.interrupted}"
+                        )
                     }
                 }
             }
@@ -169,7 +203,7 @@ fun RetreatSummaryScreen(
             Card(modifier = Modifier.fillMaxWidth()) {
                 Column(modifier = Modifier.padding(16.dp)) {
                     Text(
-                        text = "Precept Observance",
+                        text = stringResource(R.string.precept_observance),
                         style = MaterialTheme.typography.titleMedium
                     )
                     Spacer(modifier = Modifier.height(8.dp))
@@ -179,7 +213,10 @@ fun RetreatSummaryScreen(
                     )
                     Spacer(modifier = Modifier.height(4.dp))
                     Text(
-                        text = "${(state.preceptRate * 100).toInt()}% average observance",
+                        text = stringResource(
+                            R.string.precept_observance_rate,
+                            (state.preceptRate * 100).toInt()
+                        ),
                         style = MaterialTheme.typography.bodyMedium
                     )
                 }
@@ -189,12 +226,18 @@ fun RetreatSummaryScreen(
             Card(modifier = Modifier.fillMaxWidth()) {
                 Column(modifier = Modifier.padding(16.dp)) {
                     Text(
-                        text = "Meal Compliance",
+                        text = stringResource(R.string.meal_compliance),
                         style = MaterialTheme.typography.titleMedium
                     )
                     Spacer(modifier = Modifier.height(8.dp))
-                    StatRow(label = "Meals before noon", value = "${state.onTimeMeals}")
-                    StatRow(label = "Meals after noon", value = "${state.lateMeals}")
+                    StatRow(
+                        label = stringResource(R.string.meals_before_noon),
+                        value = "${state.onTimeMeals}"
+                    )
+                    StatRow(
+                        label = stringResource(R.string.meals_after_noon),
+                        value = "${state.lateMeals}"
+                    )
                 }
             }
 
@@ -205,7 +248,7 @@ fun RetreatSummaryScreen(
                 onClick = onDone,
                 modifier = Modifier.fillMaxWidth()
             ) {
-                Text("Return Home")
+                Text(stringResource(R.string.return_home))
             }
 
             // Feedback button
@@ -213,7 +256,7 @@ fun RetreatSummaryScreen(
                 onClick = onFeedback,
                 modifier = Modifier.fillMaxWidth()
             ) {
-                Text("Send Feedback")
+                Text(stringResource(R.string.send_feedback))
             }
 
             Spacer(modifier = Modifier.height(24.dp))
@@ -232,7 +275,7 @@ fun RetreatSummaryScreen(
             ) {
                 Icon(Icons.Default.Coffee, contentDescription = null)
                 Spacer(modifier = Modifier.width(8.dp))
-                Text("Buy the developer coffee")
+                Text(stringResource(R.string.buy_coffee))
             }
 
             Spacer(modifier = Modifier.height(16.dp))

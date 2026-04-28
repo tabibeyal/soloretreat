@@ -1,4 +1,32 @@
 <resources>
     <string name="app_name">SoloRetreat</string>
     <string name="paypal_donation_url">https://www.paypal.com/donate?business=eyaltabib82@gmail.com&amp;currency_code=USD</string>
+
+    <!-- Retreat Summary Screen -->
+    <string name="retreat_summary_title">Retreat Summary</string>
+    <string name="share_content_description">Share</string>
+    <string name="share_subject">My Solo Retreat Summary</string>
+    <string name="share_chooser_title">Share Retreat Summary</string>
+    <string name="retreat_complete">Retreat Complete</string>
+    <string name="sitting_meditation">Sitting Meditation</string>
+    <string name="walking_meditation">Walking Meditation</string>
+    <string name="total_time">Total Time</string>
+    <string name="completed_sessions">Completed Sessions</string>
+    <string name="interrupted_sessions">Interrupted Sessions</string>
+    <string name="precept_observance">Precept Observance</string>
+    <string name="precept_observance_rate">%1$d%% average observance</string>
+    <string name="meal_compliance">Meal Compliance</string>
+    <string name="meals_before_noon">Meals before noon</string>
+    <string name="meals_after_noon">Meals after noon</string>
+    <string name="return_home">Return Home</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="buy_coffee">Buy the developer coffee</string>
+
+    <string name="back">Back</string>
+
+    <!-- Eight Precepts Screen -->
+    <string name="eight_precepts_title">Eight Precepts</string>
+    <string name="collapse">Collapse</string>
+    <string name="expand">Expand</string>
+    <string name="precept_note_label">Note: %1$s</string>
 </resources>
